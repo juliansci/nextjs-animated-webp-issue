@@ -28,12 +28,19 @@ export default function Home() {
           height={600}
           alt="animated gif"
         ></Image>
-        <h1>Animated WEBP</h1>
+        <h1>Local Animated WEBP</h1>
         <Image
           src="/images/animated.webp"
           width={400}
           height={400}
           alt="animated webp"
+        ></Image>
+        <h1>External Animated WEBP</h1>
+        <Image
+          src="https://laetro-production.s3.amazonaws.com/store/ff5e35a8976d45d9ddb64609195f684f.webp"
+          width={400}
+          height={400}
+          alt="external animated webp"
         ></Image>
       </main>
     </>
