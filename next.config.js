@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "laetro-production.s3.amazonaws.com",
+        hostname: "mathiasbynens.be",
       },
     ],
   },

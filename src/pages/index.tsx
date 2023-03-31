@@ -37,7 +37,7 @@ export default function Home() {
         ></Image>
         <h1>External Animated WEBP</h1>
         <Image
-          src="https://laetro-production.s3.amazonaws.com/store/ff5e35a8976d45d9ddb64609195f684f.webp"
+          src="https://mathiasbynens.be/demo/animated-webp-supported.webp"
           width={400}
           height={400}
           alt="external animated webp"
