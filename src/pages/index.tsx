@@ -14,33 +14,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Static Webp</h1>
-        <Image
-          src="/images/static.webp"
-          width={500}
-          height={331}
-          alt="static webp"
-        ></Image>
-        <h1>Animated GIF</h1>
-        <Image
-          src="/images/animated.gif"
-          width={750}
-          height={600}
-          alt="animated gif"
-        ></Image>
-        <h1>Local Animated WEBP</h1>
-        <Image
-          src="/images/animated.webp"
-          width={400}
-          height={400}
-          alt="animated webp"
-        ></Image>
         <h1>External Animated WEBP</h1>
+        <p>https://mathiasbynens.be/demo/animated-webp-supported.webp</p>
         <Image
           src="https://mathiasbynens.be/demo/animated-webp-supported.webp"
           width={400}
           height={400}
           alt="external animated webp"
+        ></Image>
+        <h1>Laetro External Animated WEBP</h1>
+        <p>
+          https://laetro-production.s3.amazonaws.com/store/ff5e35a8976d45d9ddb64609195f684f.webp
+        </p>
+        <Image
+          src="https://laetro-production.s3.amazonaws.com/store/ff5e35a8976d45d9ddb64609195f684f.webp"
+          width={400}
+          height={400}
+          alt="animated webp"
         ></Image>
       </main>
     </>

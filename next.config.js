@@ -7,6 +7,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "mathiasbynens.be",
       },
+      {
+        protocol: "https",
+        hostname: "laetro-production.s3.amazonaws.com",
+      },
     ],
   },
 };
