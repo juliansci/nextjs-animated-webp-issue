@@ -16,6 +16,7 @@ const nextConfig = {
         hostname: "laetro-staging.s3.amazonaws.com",
       },
     ],
+    domains: ["laetro-staging.s3.amazonaws.com"],
   },
 };
 
