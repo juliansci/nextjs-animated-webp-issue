@@ -11,6 +11,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "laetro-production.s3.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "laetro-staging.s3.amazonaws.com",
+      },
     ],
   },
 };

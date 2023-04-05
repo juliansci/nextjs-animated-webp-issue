@@ -22,12 +22,22 @@ export default function Home() {
           height={400}
           alt="external animated webp"
         ></Image>
-        <h1>Laetro External Animated WEBP</h1>
+        <h1>Laetro External Animated WEBP 1</h1>
         <p>
-          https://laetro-production.s3.amazonaws.com/store/ff5e35a8976d45d9ddb64609195f684f.webp
+          https://laetro-staging.s3.amazonaws.com/store/bc86e446604f41afcbe2e9d3759b0277.webp
         </p>
         <Image
-          src="https://laetro-production.s3.amazonaws.com/store/ff5e35a8976d45d9ddb64609195f684f.webp"
+          src="https://laetro-staging.s3.amazonaws.com/store/bc86e446604f41afcbe2e9d3759b0277.webp"
+          width={400}
+          height={400}
+          alt="animated webp"
+        ></Image>
+        <h1>Laetro External Animated WEBP 2</h1>
+        <p>
+          https://laetro-staging.s3.amazonaws.com/store/12c9e06365956631487852fcd54cee9d.webp
+        </p>
+        <Image
+          src="https://laetro-staging.s3.amazonaws.com/store/12c9e06365956631487852fcd54cee9d.webp"
           width={400}
           height={400}
           alt="animated webp"
