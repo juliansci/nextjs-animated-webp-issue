@@ -41,6 +41,7 @@ export default function Home() {
           width={400}
           height={400}
           alt="animated webp"
+          unoptimized
         ></Image>
       </main>
     </>
